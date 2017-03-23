@@ -9,8 +9,8 @@ This sample application demonstrates how easy it is to use Rx.Net for pulling, a
 2. SteamAggregator aggregates all IObservable streams and duplicates the result into a central processing thread.
 3. The Views filter the single stream and duplicate the result into their own threads for display.
 
-All StreamProviders, StreamAggregate, and Views run in their own threads. This is a typical setup in a real-world Stock viewing applications.
+All StreamProviders, StreamAggregate, and Views run in their own threads. This is a typical setup in real-world stock viewing applications.
 
-This application can also be a good performance test skeleton for WPF DataGrid. It calculates ticks/second processed and displays it on the View.
+This application can also be a simple performance test skeleton for WPF DataGrid. It calculates ticks/second processed and displays it on the View.
 
 
